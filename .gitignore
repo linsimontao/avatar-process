@@ -1,1 +1,4 @@
 node_modules/
+pics/*
+out/*
+output_json/*

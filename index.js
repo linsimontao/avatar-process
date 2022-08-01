@@ -51,7 +51,7 @@ Promise.all(resultPromises)
         })
 
         // add new avatar url to json file
-        fs.writeFileSync(`./${file}.json`, JSON.stringify(newjson));
+        fs.writeFileSync(`./output_json/${file}.json`, JSON.stringify(newjson));
     })
     .catch (err => {
         console.error(err);
